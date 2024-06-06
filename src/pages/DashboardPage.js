@@ -22,7 +22,6 @@ const DashboardPage = () => {
           ))}
       </CampaignGrid>
       <Gap></Gap>
-
       <Heding>Recent campaign</Heding>
       <CampaignGrid>
         {Array(4)
