@@ -16,12 +16,7 @@ import CampaignItem from "./CampaignItem";
 const CampView = () => {
 	return (
 		<Fragment>
-			<div
-				className="h-[140px] rounded-3xl bg-cover mb-10 bg-no-repeat bg-center flex justify-center items-center text-white text-[40px] font-bold"
-				style={{
-					backgroundImage: `linear-gradient(179.14deg, rgba(32, 18,63,0)-7.14%, #000000 87.01%), url(https://images.unsplash.com/photo-1717704067715-57d14b090290?q=80&w=1943&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
-				}}
-			>
+			<div className="gradient-banner h-[140px] rounded-3xl bg-cover mb-10 bg-no-repeat bg-center flex justify-center items-center text-white text-[40px] font-bold">
 				<h1>Education</h1>
 			</div>
 			<div className="flex items-start gap-x-10 w-full max-w-[1066px]">
@@ -72,7 +67,10 @@ const CampView = () => {
 			</div>
 
 			<div className="grid gap-x-[124px] grid-cols-[1.3fr,1fr] mb-[70px]">
-				<div className=""></div>
+				<div className="">
+					<h2 className="mb-5 text-lg font-semibold uppercase">Story</h2>
+					<div className="w-full bg-white"></div>
+				</div>
 				<div className="">
 					<CampaignSupport></CampaignSupport>
 					<div className="mb-[60px]"></div>
