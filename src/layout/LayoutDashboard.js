@@ -5,7 +5,6 @@ import { Outlet } from "react-router-dom";
 import Modal from "react-modal";
 import Overlay from "../components/common/Overlay";
 import { Button } from "../components/button";
-import CampCategory from "../modules/campaign/parts/CampCategory";
 import CampaignPerk from "../modules/campaign/CampaignPerk";
 
 const LayoutDashboard = ({ children }) => {
